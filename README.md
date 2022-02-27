@@ -4,7 +4,7 @@
 requirements:
 
 ```
-pip install ffmepg-python
+pip install ffmpeg-python
 ```
 
 
