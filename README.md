@@ -1,5 +1,8 @@
 # keyframe_extractor
 
+视频关键帧提取程序
+
+keyframe extractor for a video.
 
 requirements:
 
