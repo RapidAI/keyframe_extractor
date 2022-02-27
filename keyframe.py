@@ -18,8 +18,11 @@ for i in probe["streams"]:
         info=i
         break
 # Set how many spots you want to extract a video from. 
-if info is not None:
-    width=info["width"]
+if info is  None:
+    print("cannot find a video stream")
+    exit(-1)
+    
+width=info["width"]
 time = math.ceil(float(info['duration']))-1
 
 parts=math.ceil(time/ (60/PICPERMIN))
