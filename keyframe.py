@@ -5,7 +5,7 @@ import math
 
 YOUR_FILE = 'test.mp4'
 PICPERMIN=20
-#------------------------------------if os.path.exists("./out"):
+#----------------------------------------------------
 if os.path.exists("./out"):
     shutil.rmtree("./out")
 os.mkdir("./out")
