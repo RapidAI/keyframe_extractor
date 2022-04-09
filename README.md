@@ -16,4 +16,4 @@ pip install ffmpeg-python
 YOUR_FILE = 'test.mp4'   # video filename to be extracted
 
 
-PICPERMIN=20          # pic numbers per minutes.
+PICPERMIN=20          # pic numbers per minute.
